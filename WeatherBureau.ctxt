@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=WeatherBureau
+comment0.text=\n\ \ This\ class\ represents\ a\ weather\ service\ that\ keeps\ track\ of\ \n\ \ all\ the\ weather\ stations.\ Internally,\ it\ should\ use\ a\ map\ to\ \n\ \ associate\ weather\ station\ IDs\ with\ weather\ station\ objects.\ \n\ \ \n\ \ Follow\ it\ with\ additional\ details\ about\ its\ purpose,\ what\ abstraction\n\ \ it\ represents,\ and\ how\ to\ use\ it.\n\n\ \ @author\ Federico\ Tafur\ (fedetafur)\n\ \ @version\ (2023.11.14)\n
+comment1.params=
+comment1.target=WeatherBureau()
+comment1.text=\n\ Initializes\ a\ newly\ created\ WeatherBureau\ object.\n
+comment2.params=text
+comment2.target=void\ recordDailySummary(java.lang.String)
+comment2.text=\n\ Records\ a\ single\ one-line\ daily\ weather\ summary\ for\ \n\ one\ day\ at\ one\ weather\ station.\n\ If\ the\ rainfall\ amount\ is\ -1,\ ignores\ the\ line.\ \n\ Otherwise,\ records\ the\ rainfall\ in\ the\ corresponding\ \n\ weather\ station\ object.\n\n\ @param\ text\ A\ string\ representing\ a\ single\ one-line\ \n\ daily\ weather\ summary.\n
+comment3.params=input
+comment3.target=void\ recordDailySummaries(java.util.Scanner)
+comment3.text=\n\ Records\ all\ daily\ summaries\ from\ the\ input\ data\ source\ \n\ represented\ by\ a\ Scanner\ object.\n\n\ @param\ input\ A\ Scanner\ object\ representing\ an\ input\ \n\ data\ source\ (e.g.,\ a\ file)\ containing\ daily\ summary\ \n\ records.\n
+comment4.params=identifier
+comment4.target=WeatherStation\ getStation(java.lang.String)
+comment4.text=\n\ Returns\ the\ weather\ station\ object\ for\ the\ given\ \n\ weather\ station\ ID.\n\n\ @param\ identifier\ The\ weather\ station\ ID.\n\ @return\ The\ WeatherStation\ object\ for\ the\ given\ ID,\ \n\ or\ null\ if\ the\ identifier\ doesn't\ match\ any\ weather\ \n\ station.\n
+comment5.params=month
+comment5.target=WeatherStation\ lowestStation(int)
+comment5.text=\n\ Returns\ the\ weather\ station\ that\ has\ the\ lowest\ average\ \n\ rainfall\ for\ the\ specified\ month.\n\n\ @param\ month\ The\ specified\ month\ (1-12).\n\ @return\ The\ WeatherStation\ object\ with\ the\ lowest\ \n\ average\ rainfall\ for\ the\ specified\ month,\ or\ null\ `\n\ if\ no\ data\ is\ available.\n
+comment6.params=
+comment6.target=WeatherStation\ lowestStation()
+comment6.text=\n\ Returns\ the\ weather\ station\ that\ has\ the\ lowest\ \n\ average\ rainfall\ recorded\ for\ any\ month\ (1-12).\n\n\ @return\ The\ WeatherStation\ object\ with\ the\ lowest\ \n\ average\ rainfall,\ or\ null\ if\ no\ data\ is\ available.\n
+numComments=7

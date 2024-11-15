@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=WeatherStation
+comment0.text=\n\ \ This\ class\ represents\ the\ basic\ statistics\ collected\ by\ one\ \n\ \ weather\ observation\ station.\ Internally,\ a\ weather\ station\ \n\ \ should\ use\ an\ array\ to\ hold\ 12\ monthly\ rain\ totals\ that\ represent\ \n\ \ the\ sum\ of\ precipitation\ numbers\ for\ all\ the\ days\ reported\ in\ \n\ \ that\ month.\ It\ should\ also\ use\ a\ separate\ array\ to\ hold\ 12\ monthly\ \n\ \ counts\ that\ represent\ the\ number\ of\ daily\ records\ that\ have\ been\ \n\ \ processed\ for\ that\ month.\n\ \ \n\ \ Follow\ it\ with\ additional\ details\ about\ its\ purpose,\ what\ abstraction\n\ \ it\ represents,\ and\ how\ to\ use\ it.\n\n\ \ @author\ Federico\ Tafur\ (fedetafur)\n\ \ @version\ (2023.11.14)\n
+comment1.params=identifier
+comment1.target=WeatherStation(java.lang.String)
+comment1.text=\n\ Initializes\ a\ newly\ created\ WeatherStation\ object.\n\ \n\ @param\ identifier\ identifies\ the\ ID\ of\ the\ station\n
+comment2.params=
+comment2.target=java.lang.String\ getId()
+comment2.text=\n\ Gets\ the\ ID\ of\ the\ weather\ station.\n\ \n\ @return\ The\ weather\ station\ ID.\n
+comment3.params=month\ rainfall
+comment3.target=void\ recordDailyRain(int,\ double)
+comment3.text=\n\ Records\ the\ daily\ rainfall\ for\ a\ specific\ month.\n\ \n\ @param\ month\ The\ month\ (1-12)\ for\ which\ the\ rainfall\ \n\ is\ recorded.\n\ \n\ @param\ rainfall\ The\ amount\ of\ rainfall\ for\ the\ day.\n
+comment4.params=month
+comment4.target=int\ getCountForMonth(int)
+comment4.text=\n\ Gets\ the\ count\ of\ recorded\ rainfall\ values\ for\ a\ \n\ specific\ month.\n\ \n\ @param\ month\ The\ month\ (1-12)\ for\ which\ the\ count\ is\ \n\ requested.\n\ \n\ @return\ The\ count\ of\ recorded\ rainfall\ values\ for\ the\ \n\ specified\ month.\n
+comment5.params=month
+comment5.target=double\ getAvgForMonth(int)
+comment5.text=\n\ Gets\ the\ average\ daily\ rainfall\ for\ a\ specific\ month.\n\ \n\ @param\ month\ The\ month\ (1-12)\ for\ which\ the\ average\ \n\ is\ requested.\n\ \n\ @return\ The\ average\ daily\ rainfall\ for\ the\ specified\ \n\ month.\ Returns\ -1\ if\ no\ data\ is\ available.\n
+comment6.params=
+comment6.target=int\ getLowestMonth()
+comment6.text=\n\ Gets\ the\ month\ with\ the\ lowest\ average\ rainfall.\n\ \n\ @return\ The\ month\ (1-12)\ with\ the\ lowest\ average\ \n\ rainfall.\ If\ multiple\ months\ have\ the\ same\ lowest\ \n\ average,\ return\ the\ earliest\ one.\ If\ no\ data\ is\ \n\ available,\ return\ the\ earliest\ month\ (1).\n
+numComments=7
